@@ -1,6 +1,6 @@
 import java.util.*;
 public class array2 {
-    static List<Integer> find(int arr[])
+    static List<Integer> find(int[] arr)
     {
         int duplicate=-1; int missing=-1;
         for(int i=0;i<arr.length;i++)
@@ -28,7 +28,7 @@ public class array2 {
     }
     public static void main(String args[])
     {
-        int arr[]={3,1,3};
+        int[] arr={3,1,3};
         System.out.println(find(arr));
     }
 }
