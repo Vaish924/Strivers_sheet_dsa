@@ -29,6 +29,6 @@ public class array2 {
     public static void main(String args[])
     {
         int[] arr={3,1,3};
-        System.out.println(find(arr));
+        System.out.println(find(arr)-" ");
     }
 }
